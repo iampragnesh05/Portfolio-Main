@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const path = require('path');
-const port = 3000;
+const port = process.env.PORT || 3000;
 const _ = require('lodash');
 
 const app = express();
