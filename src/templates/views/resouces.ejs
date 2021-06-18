@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pragnesh's Portfolio website!</title>
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Bulma-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <%- include('partials/navbar.ejs') %>
+
+      <section class="container mt-5 mb-5 has-text-centered">
+        <h1 class="is-size-4 is-size-5-mobile">
+          PRAGNESH' RESOURCES FOR BUILDING BEAUTIFUL WEBSITES WITH HTML, CSS AND
+          JAVASCRIPT
+        </h1>
+
+        <h2
+          class="is-size-3 is-size-4-mobile mt-5 is-italic has-text-black is-family-monospace"
+        >
+          HTML5 & CSS RESOURCES
+        </h2>
+        <div class="columns mt-5">
+          <div class="column">
+            <i class="fas fa-code fa-2x has-text-black resources-icon"></i>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
+              <h2 class="is-size-4 is-size-5-mobile resources-text">
+                HTML5 Reference by MDN
+              </h2>
+            </a>
+            <p class="is-size-6">
+              You don't need to know every HTML5 element. I just use this
+              excellent reference all the time.
+            </p>
+          </div>
+          <div class="column">
+            <i class="far fa-file-code fa-2x has-text-black resources-icon"></i>
+            <a href="https://websitesetup.org/html5-cheat-sheet/">
+              <h2 class="is-size-4 is-size-5-mobile resources-text">
+                HTML Cheat Sheet
+              </h2>
+            </a>
+            <p class="is-size-6">
+              A very handy printable HTML5 cheat sheet that can save you a ton
+              of time.
+            </p>
+          </div>
+          <div class="column">
+            <i class="fab fa-css3-alt fa-2x has-text-black resources-icon"></i>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+            >
+              <h2 class="is-size-4 is-size-5-mobile resources-text">
+                CSS3 Reference by MDN
+              </h2>
+            </a>
+            <p class="is-size-6">
+              As with HTML5, you don't need to know every CSS3 property. Use
+              this reference instead.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="columns mt-5">
+          <div class="column">
+            <i class="fab fa-css3 fa-2x has-text-black resources-icon"></i>
+            <a href="http://tympanus.net/codrops/css_reference/">
+              <h2 class="is-size-4 is-size-5-mobile resources-text">
+                CSS3 Reference by Codrops
+              </h2>
+            </a>
+            <p class="is-size-6">
+              Another excellent CSS3 reference, this time from Codrops. Make sure to check this one out, too.
+            </p>
+          </div>
+          <div class="column">
+            <i class="fab fa-css3 fa-2x has-text-black resources-icon"></i>
+            <a href="https://animate.style/">
+              <h2 class="is-size-4 is-size-5-mobile resources-text">
+                Animate.css
+              </h2>
+            </a>
+            <p class="is-size-6">
+              Just-add-water CSS animations. A simple CSS library that lets you add animations with ease.
+            </p>
+          </div>
+          <div class="column">
+            <i class="fab fa-css3-alt fa-2x has-text-black resources-icon"></i>
+            <a
+              href="http://www.responsivegridsystem.com/"
+            >
+              <h2 class="is-size-4 is-size-5-mobile resources-text">
+                Responsive Grid System
+              </h2>
+            </a>
+            <p class="is-size-6">
+              A quick, flexible and easy fluid grid for spectacularly easy responsive web design.
+            </p>
+          </div>
+        </div>
+
+        <h2
+        class="is-size-3 is-size-4-mobile mt-5 is-italic has-text-black is-family-monospace"
+      >
+        JAVASCRIPT RESOURCES
+      </h2>
+      <div class="columns mt-5">
+        <div class="column">
+          <i class="fab fa-js-square fa-2x has-text-black resources-icon"></i>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">
+            <h2 class="is-size-4 is-size-5-mobile resources-text">
+              JavaScript Reference by MDN
+            </h2>
+          </a>
+          <p class="is-size-6">
+            Another reference by MDN, this one is for JavaScript. This is pretty advanced stuff.
+          </p>
+        </div>
+        <div class="column">
+          <i class="fab fa-js-square fa-2x has-text-black resources-icon"></i>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">
+            <h2 class="is-size-4 is-size-5-mobile resources-text">
+              JavaScript Operator Precedence Table
+            </h2>
+          </a>
+          <p class="is-size-6">
+            Very handy cheatsheet to determine which JavaScript operators are evaluated first.
+          </p>
+        </div>
+        <div class="column">
+          <i class="fab fa-js-square fa-2x has-text-black resources-icon"></i>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/Events"
+          >
+            <h2 class="is-size-4 is-size-5-mobile resources-text">
+              JavaScript Event Reference
+            </h2>
+          </a>
+          <p class="is-size-6">
+            Handy reference list of all DOM events with explanations, nicely categorized.
+          </p>
+        </div>
+      </div>
+
+      <div class="columns mt-5">
+        <div class="column">
+          <i class="fab fa-github fa-2x has-text-black resources-icon"></i>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">
+            <h2 class="is-size-4 is-size-5-mobile resources-text">
+              Principles of Writing Good JavaScript
+            </h2>
+          </a>
+          <p class="is-size-6">
+            While I don't follow this 100%, it's good to have a style guide to write better code.
+          </p>
+        </div>
+        <div class="column">
+          <i class="fab fa-js-square fa-2x has-text-black resources-icon"></i>
+          <a href="https://jsbooks.revolunet.com/">
+            <h2 class="is-size-4 is-size-5-mobile resources-text">
+              javascript books
+            </h2>
+          </a>
+          <p class="is-size-6">
+            The best free JavaScript resources.
+          </p>
+        </div>
+      </div>
+      </section>
+
+      <section class="mt-5">
+        <%- include('partials/footer.ejs') %>
+      </section>
+     
+    </section>
+  </body>
+</html>

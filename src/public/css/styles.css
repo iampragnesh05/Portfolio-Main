@@ -1,0 +1,96 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+.logo{
+    font-size: 2rem;
+}
+#nav-item{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#nav-item:hover{
+    color: #7510F7;
+}
+#btn-color{
+    color: #7510F7;
+    border: 2px solid #7510F7;
+    font-size: 1.1rem;
+    }
+    #btn-color:hover{
+        background-color: #7510F7;
+        color: #fff;
+    }
+
+    .title{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+    }
+    .sub-heading{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+    }
+    .is-primary{
+        background-color: #7510F7;
+        color: #fff;
+    }
+
+.hero-img{
+    width: 25%;
+}
+.section.skills{
+    margin-top: -10%;
+    padding-bottom: 1rem;
+}
+.section.skills.box{
+    padding: 0;
+}
+.section.skills .box .content .columns{
+    margin-left: 0; margin-right: 0;
+}
+.section.skills .box .content .columns .column {
+    padding: 50px 30px; border-bottom: 1px solid #E6ECF8; border-right: 0px solid #E6ECF8;
+}
+
+li{
+    list-style: none;
+}
+.call-out{
+    text-align: center;
+ }
+
+#footer{
+    background-color: #7510F7;
+}
+.icon{
+    color: black;
+}
+.footer-logo{
+    margin-left: 45%;
+}
+.resources-text{
+  color: #26afeb;
+}
+.resources-text:hover{
+    color: #ff951f;
+}
+.work{
+    background-color: #f7f5f7;
+}
+.work h1{
+    color: #454867;
+   
+}
+.work-image{
+    width: 80%;
+}
+.avatar{
+    width: 25%;
+}
+@media (min-width:321px) and (max-width:768px){
+
+    .footer-logo{
+       margin-left: 28%;
+   }
+}

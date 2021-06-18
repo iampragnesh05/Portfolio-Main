@@ -1,0 +1,103 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Pragnesh's Portfolio website!</title>
+        <!-- Main CSS-->
+        <link rel="stylesheet" href="css/styles.css" />
+    
+        <!-- Bulma-->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+        />
+    
+        <!-- Font Awesome -->
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+          integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+          crossorigin="anonymous"
+        />
+    
+        <!-- Google Font -->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+<body>
+
+   
+    <%- include('partials/navbar.ejs') %>
+    <section class="section">
+        <div class="is-form-page animate-fadeUp">
+            <section class="is-white has-text-centered">
+              <div class="container">
+                <div class="columns is-centered">
+                  <div class="column is-three-quarters"><img class="avatar" src="images/Untitled-1.png">
+                    <h1 class="title is-spaced is-size-2-desktop is-size-2-tablet is-size-3-mobile has-text-weight-light m-2">Thanks for taking the time to reach out. How can I help you today?</h1>
+                  </div>
+                </div>
+              </div>
+    </section>
+    <section class="section mt-6">
+       <div class="container">
+            <form action="/contact" method="POST">
+            
+    
+                  
+                  <div class="field">
+                    <label class="label" for="name" class="">Name</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input class="input is-success" type="text" id="name" name="name" placeholder="Your Name">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label" for="email" class="">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input class="input is-danger" type="email" placeholder="Email input" id="email" name="email">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                      </span>
+                    </div>
+                  </div>
+                  
+       
+                  
+                  <div class="field">
+                    <label class="label" for="message" class="">Message</label>
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Textarea" id="message" name="message"></textarea>
+                    </div>
+                  </div>
+                  
+              
+                  
+    
+                  
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button type="submit" class="button is-link">Submit</button>
+                    </div>
+                  </div>
+
+            </form>
+       </div>
+    </section>
+
+    
+    
+
+</body>
+</html>
